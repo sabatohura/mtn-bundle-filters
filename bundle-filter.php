@@ -14,9 +14,20 @@
 </head>
 <body>
     <?php
-        $title = [
-            
-        ];
+        $title = array(
+            array(43 => "Daily Bundles (Irekure)"),
+            array(65 => "Weekly Bundles (Supapack)"),
+            array(87 => "Monthly Bundles (MTN Prestige)")
+        );
+        
+        $bundles = array(
+            array(43, "price"=> "100 Rwf","resource"=> "10 Min + 20 SMS + 5 MB","validity" => "24 Hrs" ),
+            array(43, "price"=> "200 Rwf","resource"=> "20 Min + 20 SMS + 5 MB","validity" => "25 Hrs" ),
+            array(65, "price"=> "300 Rwf","resource"=> "30 Min + 20 SMS + 5 MB","validity" => "26 Hrs" ),
+            array(87, "price"=> "400 Rwf","resource"=> "40 Min + 20 SMS + 5 MB","validity" => "26 Hrs" ),
+
+        );
+
     
     ?>
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -24,7 +35,7 @@
           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Daily Bundles (Irekure)</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Weekly Bundles (Supapack</button>
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Weekly Bundles (Supapack)</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Monthly Bundles (MTN Prestige)</button>
@@ -33,43 +44,7 @@
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="card-section">
-                <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
+                  <div class="bundle-card">
                     <strong><h5>Price</h5></strong>
                     <p>100 Rwf</p>
                     <hr>
@@ -91,66 +66,9 @@
                     <strong><h5>Resources</h5></strong>
                     <p>20 Min + 20 SMS + 5 MB</p>
                     <hr>
-                <strong> <h5>Validity</h5></strong> 
+                     <strong> <h5>Validity</h5></strong> 
                     <p>24 Hrs</p>
-                </div>  
-                <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>   
-                <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       
-                 <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>     
+                </div>    
             </div>
         </div>
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
@@ -162,43 +80,7 @@
                     <strong><h5>Resources</h5></strong>
                     <p>20 Min + 20 SMS + 5 MB</p>
                     <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
-                    <p>24 Hrs</p>
-                </div>       <div class="bundle-card">
-                    <strong><h5>Price</h5></strong>
-                    <p>100 Rwf</p>
-                    <hr>
-                    <strong><h5>Resources</h5></strong>
-                    <p>20 Min + 20 SMS + 5 MB</p>
-                    <hr>
-                <strong> <h5>Validity</h5></strong> 
+                     <strong> <h5>Validity</h5></strong> 
                     <p>24 Hrs</p>
                 </div>     
             </div>
